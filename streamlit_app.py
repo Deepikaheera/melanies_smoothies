@@ -2,7 +2,7 @@
 import streamlit as st
 
 
-from snowflake.snowpark import session
+
 from snowflake.snowpark.functions import col
 
 og_dataset = session.table("smoothies.public.orders")
